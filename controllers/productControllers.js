@@ -52,7 +52,7 @@ router.post('/products', upload.array('images'), async (req, res) => {
   }
 });
 
-rsrs
+
 // **UPDATE a product by ID** (assuming you want to update all fields)
 router.put('/products/:id', async (req, res) => {
   try {
